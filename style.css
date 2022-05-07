@@ -103,8 +103,7 @@ form {
     border-style: none solid solid solid;
 }
 
-/* links.html
-----------------------*/
+/* links.html---------------------------------------- */
 #site-link,
 #picture-link {
     margin-bottom: 50px;
@@ -135,7 +134,9 @@ form {
 
 /* スマートフォン版--------------------------------- */
 @media (max-width: 600px) {
-    /* index.html--------------------------------- */
+    html {
+        height: 100vh;
+    }
     header {
         flex-direction: column;
     }
@@ -146,14 +147,37 @@ form {
     }
     #site-name {
         margin: auto;
-        padding: 6px 0 0 0;
+        padding: 0 0 0 0;
     }
     #header-menu {
         margin: 0;
-        padding: 0;
+        padding: 0 0 4px 0;
     }
     #header-menu a {
         margin: auto;
         padding: 0;
+        font-size: 21px;
+    }
+    #main {
+        margin: 20px;
+        flex-direction: column;
+    }
+    /* index.html--------------------------------- */
+
+    /* links.html--------------------------------- */
+    #site-link,
+    #picture-link {
+        margin-bottom: 30px;
+        width: auto;
+    }
+    #site-link a,
+    #picture-link a {
+        margin: auto;
+    }
+    .links {
+        margin: auto;
+    }
+    .links p {
+        margin: 30px 0;
     }
 }
