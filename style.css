@@ -1,0 +1,116 @@
+@charset "UTF-8";
+html {
+    background: #506266;
+    background-image: url(images/20190802-19-34-02-DSC01396-dev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+header {
+    display: flex;
+    margin: none;
+    background-color: #10454F;
+    border-bottom: #BDE038 6px solid;
+}
+#header-menu {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 8px;
+    font-size: 20px;
+}
+header a {
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover {
+    color: #BDE038;
+}
+#main {
+    display: flex;
+    margin: 30px 40px 0 40px;
+}
+.title {
+    display: flex;
+}
+h1 {
+    margin: 10px 30px;
+    padding: 7px;
+    color: #BDE038;
+}
+#site-name {
+    color: #BDE038;
+}
+h2 {
+    color: #0bd;
+    font-size: 30px;
+    font-weight: 300;
+}
+form {
+    margin: 15px 20px 0;
+    font-weight: 300;
+}
+#timeTable {
+    margin: 0 0 0;
+    background: #10454F;
+    text-align: center;
+    border-style: none;
+    border-collapse: collapse;
+}
+#timeTable th {
+    margin: 0;
+    padding: 0 3px 0;
+    border-style: solid;
+    border-color: lightslategray;
+}
+#timeTable td {
+    font-size: 12px;
+    margin: 0;
+    border-color: lightslategray;
+}
+#timeTable tr {
+    margin: 0;
+}
+#timeTable .class {
+    width: 90px;
+    height: 75px;
+    border-style: solid solid none solid;
+}
+#timeTable .room {
+    height: 20px;
+    font-weight: bold;
+    color: #000;
+    background-color: #0bd;
+    border-style: none solid solid solid;
+}
+
+/* links.html
+----------------------*/
+#site-link,
+#picture-link {
+    margin-bottom: 50px;
+    width: 600px;
+}
+
+.links p {
+    margin: 40px 0;
+}
+
+#site-link a,
+#picture-link a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #506266;
+    border-radius: 5px;
+}
+
+#site-link a:hover,
+#picture-link a:hover {
+    color: #BDE038;
+}
+
+.links {
+    margin-top: 20px;
+}
