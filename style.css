@@ -31,7 +31,11 @@ header a {
 }
 
 header a:hover {
-    color: #BDE038;
+    color: #0BD;
+}
+
+#current-location {
+color: #BDE038;
 }
 
 #main {
