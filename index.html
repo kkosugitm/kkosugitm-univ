@@ -26,8 +26,8 @@
             <div class="title">
                 <h2>時間割</h2>
                 <form action="example.php">
-                    <input type="radio" name="semester" value="春学期" checked>春学期
-                    <input type="radio" name="semester" value="秋学期">秋学期
+                    <label><input type="radio" name="semester" value="春学期" id="spring" onchange="changeSemester()" checked>春学期</label>
+                    <label><input type="radio" name="semester" value="秋学期" id="fall" onchange="changeSemester()">秋学期</label>
                 </form>
             </div>
             <table id="timeTable">
@@ -41,82 +41,83 @@
                 </tr>
                 <tr>
                     <th rowspan="2">1</th>
-                    <td class="class">英語リーディング3</td>
-                    <td class="class"></td>
-                    <td class="class"></td>
-                    <td class="class"></td>
-                    <td class="class">中国語3</td>
+                    <td id="Mon1class" class="class"></td>
+                    <td id="Tue1class" class="class"></td>
+                    <td id="Wed1class" class="class"></td>
+                    <td id="Thu1class" class="class"></td>
+                    <td id="Fri1class" class="class"></td>
                 </tr>
                 <tr>
-                    <td class="room">0409</td>
-                    <td class="room"></td>
-                    <td class="room"></td>
-                    <td class="room"></td>
-                    <td class="room">0408</td>
+                    <td id="Mon1room" class="room"></td>
+                    <td id="Tue1room" class="room"></td>
+                    <td id="Wed1room" class="room"></td>
+                    <td id="Thu1room" class="room"></td>
+                    <td id="Fri1room" class="room"></td>
                 </tr>
                 <tr>
                     <th rowspan="2">2</th>
-                    <td class="class">英語コミュニケーション3</td>
-                    <td class="class"></td>
-                    <td class="class">電子回路1</td>
-                    <td class="class">電気磁気学3</td>
-                    <td class="class"></td>
+                    <td id="Mon2class" class="class"></td>
+                    <td id="Tue2class" class="class"></td>
+                    <td id="Wed2class" class="class"></td>
+                    <td id="Thu2class" class="class"></td>
+                    <td id="Fri2class" class="class"></td>
                 </tr>
                 <tr>
-                    <td class="room">A302</td>
-                    <td class="room"></td>
-                    <td class="room">2004</td>
-                    <td class="room">0410</td>
-                    <td class="room"></td>
+                    <td id="Mon2room" class="room"></td>
+                    <td id="Tue2room" class="room"></td>
+                    <td id="Wed2room" class="room"></td>
+                    <td id="Thu2room" class="room"></td>
+                    <td id="Fri2room" class="room"></td>
                 </tr>
                 <tr>
                     <th rowspan="2">3</th>
-                    <td class="class">技術者倫理</td>
-                    <td class="class">電気電子生命実験1A/コンピューターシミュレーション1</td>
-                    <td class="class">電気回路1</td>
-                    <td class="class"></td>
-                    <td class="class">振動波動論</td>
+                    <td id="Mon3class" class="class"></td>
+                    <td id="Tue3class" class="class"></td>
+                    <td id="Wed3class" class="class"></td>
+                    <td id="Thu3class" class="class"></td>
+                    <td id="Fri3class" class="class"></td>
                 </tr>
                 <tr>
-                    <td class="room">A208</td>
-                    <td class="room"></td>
-                    <td class="room">0408</td>
-                    <td class="room"></td>
-                    <td class="room">0304</td>
+                    <td id="Mon3room" class="room"></td>
+                    <td id="Tue3room" class="room"></td>
+                    <td id="Wed3room" class="room"></td>
+                    <td id="Thu3room" class="room"></td>
+                    <td id="Fri3room" class="room"></td>
                 </tr>
                 <tr>
                     <th rowspan="2">4</th>
-                    <td class="class">電子物性1</td>
-                    <td class="class">電気電子生命実験1A/コンピューターシミュレーション1</td>
-                    <td class="class">微分積分学1</td>
-                    <td class="class">情報処理1</td>
-                    <td class="class">応用数理概論1</td>
+                    <td id="Mon4class" class="class"></td>
+                    <td id="Tue4class" class="class"></td>
+                    <td id="Wed4class" class="class"></td>
+                    <td id="Thu4class" class="class"></td>
+                    <td id="Fri4class" class="class"></td>
                 </tr>
                 <tr>
-                    <td class="room">A312</td>
-                    <td class="room"></td>
-                    <td class="room">A312</td>
-                    <td class="room">A312</td>
-                    <td class="room">A306</td>
+                    <td id="Mon4room" class="room"></td>
+                    <td id="Tue4room" class="room"></td>
+                    <td id="Wed4room" class="room"></td>
+                    <td id="Thu4room" class="room"></td>
+                    <td id="Fri4room" class="room"></td>
                 </tr>
                 <tr>
                     <th rowspan="2">5</th>
-                    <td class="class"></td>
-                    <td class="class">電気電子生命実験1A/コンピューターシミュレーション1</td>
-                    <td class="class"></td>
-                    <td class="class"></td>
-                    <td class="class"></td>
+                    <td id="Mon5class" class="class"></td>
+                    <td id="Tue5class" class="class"></td>
+                    <td id="Wed5class" class="class"></td>
+                    <td id="Thu5class" class="class"></td>
+                    <td id="Fri5class" class="class"></td>
                 </tr>
                 <tr>
-                    <td class="room"></td>
-                    <td class="room"></td>
-                    <td class="room"></td>
-                    <td class="room"></td>
-                    <td class="room"></td>
+                    <td id="Mon5room" class="room"></td>
+                    <td id="Tue5room" class="room"></td>
+                    <td id="Wed5room" class="room"></td>
+                    <td id="Thu5room" class="room"></td>
+                    <td id="Fri5room" class="room"></td>
                 </tr>
             </table>
         </div>
     </div> <!-- main ここまで -->
+    <script src="index.js"></script>
 </body>
 
 </html>
