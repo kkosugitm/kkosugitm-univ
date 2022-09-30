@@ -1,5 +1,17 @@
 'use strict';
 
+// 画像のプリロード処理
+const images = ['20181228-00-45-27-DSC02788dvlp.jpg', '20190802-19-34-02-DSC01396-dev.jpg'];
+
+images.forEach(function(item, index) {
+    preloadImage(item);
+});
+
+function preloadImage(path) {
+    document.createElement('img').src = 'path';
+}
+// *画像のプリロード処理
+
 function changeSemester() {
     let semesterRadio = document.getElementsByName('semester');
 
