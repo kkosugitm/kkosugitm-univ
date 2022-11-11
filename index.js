@@ -138,7 +138,9 @@ function changeSemester() {
         Mon2class.innerText = '英語コミュニケーション4';
         Mon2room.innerText = 'A302';
         Mon3class.innerText = '電子物性2';
+        Mon3class.style.color = 'gray'
         Mon3room.innerText = 'A312';
+        Mon3room.style.color = 'gray'
         Mon4class.innerText = '';
         Mon4room.innerText = '';
         Mon5class.innerText = '';
@@ -161,10 +163,10 @@ function changeSemester() {
         Wed2room.innerText = '';
         Wed3class.innerText = '電気回路2';
         Wed3room.innerText = 'A208';
-        Wed4class.innerText = '情報処理2';
-        Wed4room.innerText = '5204';
-        Wed5class.innerText = 'オブジェクト指向';
-        Wed5room.innerText = '0405';
+        Wed4class.innerText = '';
+        Wed4room.innerText = '';
+        Wed5class.innerText = '';
+        Wed5room.innerText = '';
 
         Thu1class.innerText = '';
         Thu1room.innerText = '';
@@ -175,7 +177,9 @@ function changeSemester() {
         Thu4class.innerText = 'システム制御1';
         Thu4room.innerText = '2002';
         Thu5class.innerText = '微分積分学2';
+        Thu5class.style.color = 'gray'
         Thu5room.innerText = '0304';
+        Thu5room.style.color = 'gray'
         
         Fri1class.innerText = '中国語4';
         Fri1room.innerText = '0501';
