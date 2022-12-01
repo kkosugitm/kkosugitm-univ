@@ -44,7 +44,7 @@ header a:hover {
 /* index.html ------------------------- */
 #index {
     background: #506266;
-    background-image: url(images/20190802-19-34-02-DSC01396-dev.jpg);
+    background-image: url(images/top-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -116,7 +116,7 @@ form {
 /* links.html---------------------------------------- */
 #links {
     background: #506266;
-    background-image: url(images/20181228-00-45-27-DSC02788dvlp.jpg);
+    background-image: url(images/links-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
